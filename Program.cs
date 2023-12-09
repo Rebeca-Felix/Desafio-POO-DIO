@@ -10,5 +10,5 @@ Console.WriteLine("\n");
 
 Console.WriteLine("Smartphone iPhone:");
 Smartphone iphone = new Iphone(numero: "30654923", modelo: "Modelo 2", imei: "987654321", memoria: 128);
-nokia.ReceberLigacao();
-nokia.InstalarAplicativo("Candy Crush");
+Iphone.ReceberLigacao();
+Iphone.InstalarAplicativo("Candy Crush");
